@@ -4,14 +4,38 @@
     "These dependencies are necessary for Typescript auto-import suggestions to work",
     "This file will get updated after every install with dependencies from @tt/ttms-react-core"
   ],
+  "scripts": {
+    "start": "react-scripts start"
+  },
   "peerDependencies": {
-    "axios": "*",
-    "react-admin": "*",
     "@material-ui/core": "*",
     "@material-ui/icons": "*",
     "@material-ui/lab": "*",
-    "react-router-dom": "*",
     "@types/react-router-dom": "*",
-    "react-final-form": "*"
+    "axios": "*",
+    "react-admin": "*",
+    "react-final-form": "*",
+    "react-router-dom": "*"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.2",
+    "@reduxjs/toolkit": "^1.8.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
+    "redux-thunk": "^2.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
